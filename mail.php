@@ -15,7 +15,7 @@ $mail->Host = 'smtp.mail.ru';  																							// Specify main and backup
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'dzharuzov@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = '$dk820&123'; // Ваш пароль от почты с которой будут отправляться письма
-$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('dzharuzov@mail.ru'); // от кого будет уходить письмо?
